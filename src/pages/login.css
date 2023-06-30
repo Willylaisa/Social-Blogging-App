@@ -2,12 +2,12 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    min-height: 75vh;
     justify-content: space-around;
 }
 
 .login--page article {
     min-width: 45vw;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +33,8 @@
    flex-direction: column;
    align-items:center ;
    background:#fff;
+   height: 100%;
+   align-self: center;
 }
 
 .login--section h1{
