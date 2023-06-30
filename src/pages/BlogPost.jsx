@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./blog.css"
 
 const BlogPost = ({ post, onLike, onAddComment }) => {
   const [comment, setComment] = useState('');
@@ -32,12 +33,12 @@ const BlogPost = ({ post, onLike, onAddComment }) => {
 
       <div>
         Likes: {post.likes}
-        <button onClick={handleLikeClick}>Like</button>
+        <button className='likeButton' onClick={handleLikeClick}><i className='fa fa-heart'></i></button>
       </div>
       <div>
         <form onSubmit={handleCommentSubmit}>
           <input type="text" value={comment} onChange={handleCommentChange} placeholder="Add a comment" />
-          <button type="submit">Submit</button>
+          <button className='commentButton' type="submit"><i class="fa fa-paper-plane"></i></button>
         </form>
       </div>
       <div className="comments">

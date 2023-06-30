@@ -56,10 +56,28 @@
   }
   
   input[type='text'] {
-    margin-right: 10px;
+    
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 4px 0px 0px 4px;
+    border-right: none;
+  }
+  .commentButton {
+    width: 40px;
+    height: 31.1px;
+    background-color: #fff;
+    font-size: 1rem;
+    border: none;
+    
+  }
+  .likeButton {
+    padding: 2px;
+    background-color: transparent;
+    color: red;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 3px;
   }
   
   .button {
