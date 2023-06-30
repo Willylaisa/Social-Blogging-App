@@ -29,7 +29,7 @@ export default function Form() {
     return (
         <div>
             <form className="login--form" onSubmit={handleSubmit}>
-                <div className="login--email">
+                <div className="login--email label">
                     <label htmlFor="email">Email: </label>
                     <input 
                         type="text" 
@@ -40,7 +40,7 @@ export default function Form() {
                         onChange={handleChange}
                     />
                 </div>
-                <div>
+                <div className="label">
                     <label htmlFor="password">Password: </label>
                     <input 
                         type="password" 
