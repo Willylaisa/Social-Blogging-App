@@ -71,11 +71,28 @@
     font-size: 1.7rem;
     font-weight: bold;
     font-family: inherit;
-    width: 7rem;
+    width: 50%;
     place-self: center;
     background-color: #55C2C3;
     color: black;
     border: none;
     padding: .7rem 1.1rem;
     border-radius: 0.5rem;
+}
+
+.signup {
+    font-size: 1.1rem;
+}
+
+.signup--link {
+    text-decoration: none;
+}
+
+.confirm--password{
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm--password input{
+    margin-left: 5rem;
 }
