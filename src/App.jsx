@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router-dom"
 export default function App() {
   return (
     <>
-      <Navbar />
+      <Navbar className="navbar"/>
       <div>
         <Routes>
           <Route path="/" element={<Blog />}/>
