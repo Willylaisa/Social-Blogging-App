@@ -73,6 +73,7 @@ css
     letter-spacing: 1.2;
     font-family: cursive;
 }
+<<<<<<< HEAD
 
  @media screen and (max-width: 768px) {
     .blogs {
@@ -102,3 +103,5 @@ css
         margin-top: 10px;
     }
 }
+=======
+>>>>>>> cd89faa01bff9975bd8d4487fe366d46b12758c1
