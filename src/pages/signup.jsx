@@ -21,13 +21,12 @@ export default function Login() {
                 [name] : value
             }
         ))
-        console.log(formData)
     }
     function handleSubmit(event) {
         event.preventDefault()
         formData.password === formData.confirmPassword ?
         window.open("/", "_self"):
-        alert("The passwords do not match")
+        alert("passwords do not match")
     }
     return (
         <div>
