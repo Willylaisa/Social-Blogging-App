@@ -1,7 +1,7 @@
 import React from 'react'
 import "./profile.css"
 
-import Blog from "./Blog"
+import Blog from "../components/NewBlog"
 
 
 
