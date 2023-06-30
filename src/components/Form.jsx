@@ -23,7 +23,7 @@ export default function Form() {
     }
     function handleSubmit(event) {
         event.preventDefault()
-        alert("You have successfully logged in!")
+        window.open("/", "_self")
     }
 
     return (

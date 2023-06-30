@@ -13,6 +13,7 @@ export default function App() {
       <div>
         <Routes>
           <Route path="/" element={<Blog />}/>
+          <Route path="/Social-Blogging-App/" element={<Blog />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/profile" element={<Profile />}/>
           <Route path="/signup" element={<Signup />}/>
