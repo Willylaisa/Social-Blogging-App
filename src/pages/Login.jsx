@@ -1,6 +1,5 @@
 import React from 'react'
 import "./login.css"
-import Footer from "../components/Footer"
 import Form from "../components/Form"
 
 
@@ -17,7 +16,6 @@ export default function Login() {
                     <Form />
                 </div>
             </section>
-            <Footer />
         </div>
     )
 }

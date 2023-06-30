@@ -1,6 +1,5 @@
 import React from 'react'
 import "./login.css"
-import Footer from "../components/Footer"
 
 
 export default function Login() {
@@ -38,7 +37,7 @@ export default function Login() {
                 <div className='login--section'>
                     <h1>Sign up</h1>
                     <form className="login--form" onSubmit={handleSubmit}>
-                    <div className="login--email">
+                    <div className="login--email label">
                         <label htmlFor="email">Email: </label>
                         <input 
                             type="text" 
@@ -49,7 +48,7 @@ export default function Login() {
                             onChange={handleChange}
                         />
                     </div>
-                    <div>
+                    <div className='label'>
                         <label htmlFor="password">Password: </label>
                         <input 
                             type="password" 
@@ -60,7 +59,7 @@ export default function Login() {
                             onChange={handleChange}
                         />
                     </div>
-                    <div className='confirm--password'>
+                    <div className='confirm--password label'>
                         <label htmlFor="password">Confirm password: </label>
                         <input 
                             type="password" 
@@ -75,7 +74,6 @@ export default function Login() {
                 </form>
                 </div>
             </section>
-            <Footer />
         </div>
     )
 }
