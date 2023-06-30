@@ -8,6 +8,7 @@ export default function Login() {
         {
             email: "",
             password: "",
+            confirmPassword: "",
             value: ""
         }
     )
@@ -24,7 +25,9 @@ export default function Login() {
     }
     function handleSubmit(event) {
         event.preventDefault()
-        alert("You have successfully logged in!")
+        formData.password === formData.confirmPassword ?
+        window.open("/", "_self"):
+        alert("The passwords do not match")
     }
     return (
         <div>
@@ -62,10 +65,10 @@ export default function Login() {
                         <label htmlFor="password">Confirm password: </label>
                         <input 
                             type="password" 
-                            name="password" 
-                            id="password" 
+                            name="confirmPassword" 
+                            id="confirmPassword" 
                             placeholder="********" 
-                            value={formData.password}
+                            value={formData.confirmPassword}
                             onChange={handleChange}
                         />
                     </div>
