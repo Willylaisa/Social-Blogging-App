@@ -4,7 +4,7 @@ import "./profile.css"
 import Blog from "../components/NewBlog"
 
 
-
+ 
 export default function Profile(){
     const resultDiv = document.getElementById("blog-post")
     
